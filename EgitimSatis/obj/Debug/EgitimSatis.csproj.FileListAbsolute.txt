@@ -1,0 +1,7 @@
+C:\Users\ahmet\source\repos\EgitimSatis\EgitimSatis\bin\Debug\EgitimSatis.exe.config
+C:\Users\ahmet\source\repos\EgitimSatis\EgitimSatis\bin\Debug\EgitimSatis.exe
+C:\Users\ahmet\source\repos\EgitimSatis\EgitimSatis\bin\Debug\EgitimSatis.pdb
+C:\Users\ahmet\source\repos\EgitimSatis\EgitimSatis\obj\Debug\EgitimSatis.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\EgitimSatis\EgitimSatis\obj\Debug\EgitimSatis.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\EgitimSatis\EgitimSatis\obj\Debug\EgitimSatis.exe
+C:\Users\ahmet\source\repos\EgitimSatis\EgitimSatis\obj\Debug\EgitimSatis.pdb
