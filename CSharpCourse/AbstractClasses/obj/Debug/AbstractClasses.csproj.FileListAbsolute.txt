@@ -1,0 +1,6 @@
+C:\Users\ahmet\source\repos\CSharpCourse\AbstractClasses\obj\Debug\AbstractClasses.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\CSharpCourse\AbstractClasses\bin\Debug\AbstractClasses.exe.config
+C:\Users\ahmet\source\repos\CSharpCourse\AbstractClasses\bin\Debug\AbstractClasses.exe
+C:\Users\ahmet\source\repos\CSharpCourse\AbstractClasses\bin\Debug\AbstractClasses.pdb
+C:\Users\ahmet\source\repos\CSharpCourse\AbstractClasses\obj\Debug\AbstractClasses.exe
+C:\Users\ahmet\source\repos\CSharpCourse\AbstractClasses\obj\Debug\AbstractClasses.pdb

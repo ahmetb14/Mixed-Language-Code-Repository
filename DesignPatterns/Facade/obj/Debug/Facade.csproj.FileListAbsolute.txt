@@ -1,0 +1,13 @@
+c:\users\engin\documents\visual studio 2017\Projects\DesignPatterns\Facade\bin\Debug\Facade.exe.config
+c:\users\engin\documents\visual studio 2017\Projects\DesignPatterns\Facade\bin\Debug\Facade.exe
+c:\users\engin\documents\visual studio 2017\Projects\DesignPatterns\Facade\bin\Debug\Facade.pdb
+c:\users\engin\documents\visual studio 2017\Projects\DesignPatterns\Facade\obj\Debug\Facade.csprojResolveAssemblyReference.cache
+c:\users\engin\documents\visual studio 2017\Projects\DesignPatterns\Facade\obj\Debug\Facade.exe
+c:\users\engin\documents\visual studio 2017\Projects\DesignPatterns\Facade\obj\Debug\Facade.pdb
+C:\Users\ahmet\source\repos\DesignPatterns\Facade\bin\Debug\Facade.exe.config
+C:\Users\ahmet\source\repos\DesignPatterns\Facade\bin\Debug\Facade.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Facade\bin\Debug\Facade.pdb
+C:\Users\ahmet\source\repos\DesignPatterns\Facade\obj\Debug\Facade.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\DesignPatterns\Facade\obj\Debug\Facade.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\DesignPatterns\Facade\obj\Debug\Facade.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Facade\obj\Debug\Facade.pdb

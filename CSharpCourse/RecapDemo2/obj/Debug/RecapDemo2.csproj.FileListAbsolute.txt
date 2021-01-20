@@ -1,0 +1,7 @@
+C:\Users\ahmet\source\repos\CSharpCourse\RecapDemo2\bin\Debug\RecapDemo2.exe.config
+C:\Users\ahmet\source\repos\CSharpCourse\RecapDemo2\bin\Debug\RecapDemo2.exe
+C:\Users\ahmet\source\repos\CSharpCourse\RecapDemo2\bin\Debug\RecapDemo2.pdb
+C:\Users\ahmet\source\repos\CSharpCourse\RecapDemo2\obj\Debug\RecapDemo2.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\CSharpCourse\RecapDemo2\obj\Debug\RecapDemo2.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\CSharpCourse\RecapDemo2\obj\Debug\RecapDemo2.exe
+C:\Users\ahmet\source\repos\CSharpCourse\RecapDemo2\obj\Debug\RecapDemo2.pdb

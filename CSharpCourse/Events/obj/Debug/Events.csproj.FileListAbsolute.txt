@@ -1,0 +1,7 @@
+C:\Users\ahmet\source\repos\CSharpCourse\Events\bin\Debug\Events.exe.config
+C:\Users\ahmet\source\repos\CSharpCourse\Events\bin\Debug\Events.exe
+C:\Users\ahmet\source\repos\CSharpCourse\Events\bin\Debug\Events.pdb
+C:\Users\ahmet\source\repos\CSharpCourse\Events\obj\Debug\Events.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\CSharpCourse\Events\obj\Debug\Events.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\CSharpCourse\Events\obj\Debug\Events.exe
+C:\Users\ahmet\source\repos\CSharpCourse\Events\obj\Debug\Events.pdb

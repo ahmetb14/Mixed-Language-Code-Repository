@@ -1,0 +1,7 @@
+C:\Users\ahmet\source\repos\DesignPatterns\State\bin\Debug\State.exe.config
+C:\Users\ahmet\source\repos\DesignPatterns\State\bin\Debug\State.exe
+C:\Users\ahmet\source\repos\DesignPatterns\State\bin\Debug\State.pdb
+C:\Users\ahmet\source\repos\DesignPatterns\State\obj\Debug\State.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\DesignPatterns\State\obj\Debug\State.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\DesignPatterns\State\obj\Debug\State.exe
+C:\Users\ahmet\source\repos\DesignPatterns\State\obj\Debug\State.pdb

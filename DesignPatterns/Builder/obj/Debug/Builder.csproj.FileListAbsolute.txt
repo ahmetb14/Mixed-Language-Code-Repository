@@ -1,0 +1,7 @@
+C:\Users\ahmet\source\repos\DesignPatterns\Builder\bin\Debug\Builder.exe.config
+C:\Users\ahmet\source\repos\DesignPatterns\Builder\bin\Debug\Builder.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Builder\bin\Debug\Builder.pdb
+C:\Users\ahmet\source\repos\DesignPatterns\Builder\obj\Debug\Builder.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\DesignPatterns\Builder\obj\Debug\Builder.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\DesignPatterns\Builder\obj\Debug\Builder.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Builder\obj\Debug\Builder.pdb

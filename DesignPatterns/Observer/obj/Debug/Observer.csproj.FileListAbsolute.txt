@@ -1,0 +1,6 @@
+C:\Users\ahmet\source\repos\DesignPatterns\Observer\bin\Debug\Observer.exe.config
+C:\Users\ahmet\source\repos\DesignPatterns\Observer\bin\Debug\Observer.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Observer\bin\Debug\Observer.pdb
+C:\Users\ahmet\source\repos\DesignPatterns\Observer\obj\Debug\Observer.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\DesignPatterns\Observer\obj\Debug\Observer.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Observer\obj\Debug\Observer.pdb

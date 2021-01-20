@@ -1,0 +1,6 @@
+C:\Users\ahmet\source\repos\DesignPatterns\Prototype\bin\Debug\Prototype.exe.config
+C:\Users\ahmet\source\repos\DesignPatterns\Prototype\bin\Debug\Prototype.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Prototype\bin\Debug\Prototype.pdb
+C:\Users\ahmet\source\repos\DesignPatterns\Prototype\obj\Debug\Prototype.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\DesignPatterns\Prototype\obj\Debug\Prototype.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Prototype\obj\Debug\Prototype.pdb

@@ -1,0 +1,6 @@
+C:\Users\ahmet\source\repos\DesignPatterns\Decorater\bin\Debug\Decorater.exe.config
+C:\Users\ahmet\source\repos\DesignPatterns\Decorater\bin\Debug\Decorater.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Decorater\bin\Debug\Decorater.pdb
+C:\Users\ahmet\source\repos\DesignPatterns\Decorater\obj\Debug\Decorator.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\DesignPatterns\Decorater\obj\Debug\Decorater.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Decorater\obj\Debug\Decorater.pdb

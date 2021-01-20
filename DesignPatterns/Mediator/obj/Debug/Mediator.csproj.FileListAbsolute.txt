@@ -1,0 +1,7 @@
+C:\Users\ahmet\source\repos\DesignPatterns\Mediator\bin\Debug\Mediator.exe.config
+C:\Users\ahmet\source\repos\DesignPatterns\Mediator\bin\Debug\Mediator.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Mediator\bin\Debug\Mediator.pdb
+C:\Users\ahmet\source\repos\DesignPatterns\Mediator\obj\Debug\Mediator.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\DesignPatterns\Mediator\obj\Debug\Mediator.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\DesignPatterns\Mediator\obj\Debug\Mediator.exe
+C:\Users\ahmet\source\repos\DesignPatterns\Mediator\obj\Debug\Mediator.pdb

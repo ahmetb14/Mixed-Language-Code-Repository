@@ -1,0 +1,11 @@
+C:\Users\ahmet\source\repos\CSharpCourse\AccessModifiersDemo\bin\Debug\AccessModifiersDemo.exe.config
+C:\Users\ahmet\source\repos\CSharpCourse\AccessModifiersDemo\bin\Debug\AccessModifiersDemo.exe
+C:\Users\ahmet\source\repos\CSharpCourse\AccessModifiersDemo\bin\Debug\AccessModifiersDemo.pdb
+C:\Users\ahmet\source\repos\CSharpCourse\AccessModifiersDemo\bin\Debug\AccessModifiers.exe
+C:\Users\ahmet\source\repos\CSharpCourse\AccessModifiersDemo\bin\Debug\AccessModifiers.pdb
+C:\Users\ahmet\source\repos\CSharpCourse\AccessModifiersDemo\bin\Debug\AccessModifiers.exe.config
+C:\Users\ahmet\source\repos\CSharpCourse\AccessModifiersDemo\obj\Debug\AccessModifiersDemo.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\CSharpCourse\AccessModifiersDemo\obj\Debug\AccessModifiersDemo.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\CSharpCourse\AccessModifiersDemo\obj\Debug\AccessModifiersDemo.csproj.CopyComplete
+C:\Users\ahmet\source\repos\CSharpCourse\AccessModifiersDemo\obj\Debug\AccessModifiersDemo.exe
+C:\Users\ahmet\source\repos\CSharpCourse\AccessModifiersDemo\obj\Debug\AccessModifiersDemo.pdb

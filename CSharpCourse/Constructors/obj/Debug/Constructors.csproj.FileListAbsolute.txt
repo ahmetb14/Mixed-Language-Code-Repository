@@ -1,0 +1,6 @@
+C:\Users\ahmet\source\repos\CSharpCourse\Constructors\bin\Debug\Constructors.exe.config
+C:\Users\ahmet\source\repos\CSharpCourse\Constructors\bin\Debug\Constructors.exe
+C:\Users\ahmet\source\repos\CSharpCourse\Constructors\bin\Debug\Constructors.pdb
+C:\Users\ahmet\source\repos\CSharpCourse\Constructors\obj\Debug\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\CSharpCourse\Constructors\obj\Debug\Constructors.exe
+C:\Users\ahmet\source\repos\CSharpCourse\Constructors\obj\Debug\Constructors.pdb
