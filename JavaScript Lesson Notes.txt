@@ -1,70 +1,70 @@
-JavaScript Lesson Notes;
+JavaScript Lesson Notes;
 
-String: Metinsel Tip, Number: Sayısal Tip, Boolean: True or False Tip
+String: Metinsel Tip, Number: Sayısal Tip, Boolean: True or False Tip
 
-<p id="istenilen şey"></p> (getElementById kısmında parantez içine yazılacak kısım tanımlanır)
+<p id="istenilen şey"></p> (getElementById kısmında parantez içine yazılacak kısım tanımlanır)
 
-document.getElementById("istenilen yazı").innerHTML = istenilenkısım; (JS Methodu)
+document.getElementById("istenilen yazı").innerHTML = istenilenkısım; (JS Methodu)
 
-<script></script> şeklinde aç kapat yapılır.
+<script></script> şeklinde aç kapat yapılır.
 
-Arrays: Dizi denir. "[]" köşeli parantez içinde tanımlanır.
+Arrays: Dizi denir. "[]" köşeli parantez içinde tanımlanır.
 
-Dizilerin indexleri sıfırdan (0) başlar.
+Dizilerin indexleri sıfırdan (0) başlar.
 
-push : özelliği dizilerin sonuna verilen bir elemanı daha ekler.
+push : özelliği dizilerin sonuna verilen bir elemanı daha ekler.
 
-length: özelliği eleman sayısını verir.
+length: özelliği eleman sayısını verir.
 
-Object Tipi: Bir çok özelliği içerisinde barındırır. Örn: firstname lastname city age gibi bilgiler.
+Object Tipi: Bir çok özelliği içerisinde barındırır. Örn: firstname lastname city age gibi bilgiler.
 
-Loose Typing / Dynamic Typing (Araştır Tekrardan)
+Loose Typing / Dynamic Typing (Araştır Tekrardan)
 
-alert özelliği uyarı mesaj vermeği sağlar.
+alert özelliği uyarı mesaj vermeği sağlar.
 
-this bunu barındıran anlamı katar.
+this bunu barındıran anlamı katar.
 
-Events olaylar anlamına gelir. Yapılmak çalışması istenen şeyler için kullanılır. Örn: <button onClick="eventcode">My Button</button> gibi.
+Events olaylar anlamına gelir. Yapılmak çalışması istenen şeyler için kullanılır. Örn: <button onClick="eventcode">My Button</button> gibi.
 
-Fonksiyonlar function ile başlar isteğe bağlı return edilerek sonuç görülür.
+Fonksiyonlar function ile başlar isteğe bağlı return edilerek sonuç görülür.
 
-Arguments nesnesi obje arrayinden oluşur. Parametreye benzer yanları vardır. Örn: x = findMax(1, 123, 500, 115, 44, 88); gibi dizi.
+Arguments nesnesi obje arrayinden oluşur. Parametreye benzer yanları vardır. Örn: x = findMax(1, 123, 500, 115, 44, 88); gibi dizi.
 
-Conditions şart blokları if-else, switch bloğu vs. "&&" ve anlamına gelir. prompt kişiden bilgi almaya yarayan kutucuktur.
+Conditions şart blokları if-else, switch bloğu vs. "&&" ve anlamına gelir. prompt kişiden bilgi almaya yarayan kutucuktur.
 
-Loops döngüler anlamına gelir. For, while, do-while vs. i++ birerli artış anlamına gelir.
+Loops döngüler anlamına gelir. For, while, do-while vs. i++ birerli artış anlamına gelir.
 
-break ilgi yerden bitirmeye durdurmaya kırmaya yarar. continue belirli şart sağlandığında bir sonrakine atlayıp devam eder. Örn ==5 ise dediğimizde 5'i atlar sonra devam eder.
+break ilgi yerden bitirmeye durdurmaya kırmaya yarar. continue belirli şart sağlandığında bir sonrakine atlayıp devam eder. Örn ==5 ise dediğimizde 5'i atlar sonra devam eder.
 
-while şart sağlanana kadar devam eder. do-while döngüsü ise şart sağlanana kadar devam eder ama verilen şart sağlansada sağlanmasa devam eder.
+while şart sağlanana kadar devam eder. do-while döngüsü ise şart sağlanana kadar devam eder ama verilen şart sağlansada sağlanmasa devam eder.
 
-"Exception Handling" hata ayıklama demektir, .innerHTML bir özelliktir. try-catch bloğu dene yakala metodudur. finally hata olsun veya olmasın çalışacak kısımdır.
+"Exception Handling" hata ayıklama demektir, .innerHTML bir özelliktir. try-catch bloğu dene yakala metodudur. finally hata olsun veya olmasın çalışacak kısımdır.
 
-Validation doğrulama anlamına gelir. Disabled, Readonly, Max, Min, Pattern, Required, Type, Maxlength, Novalidate keywordleridir.
+Validation doğrulama anlamına gelir. Disabled, Readonly, Max, Min, Pattern, Required, Type, Maxlength, Novalidate keywordleridir.
 
-Html JavaScript Dom: hepsi "document." ile gelir kullanılır. getElementById, getElementsByTagName, getElementsByClassName, querySelectorAll, getElementsByName, addEventListener, removeEventListener, Working With Nodes.
+Html JavaScript Dom: hepsi "document." ile gelir kullanılır. getElementById, getElementsByTagName, getElementsByClassName, querySelectorAll, getElementsByName, addEventListener, removeEventListener, Working With Nodes.
 
-heading.appendChild(node); bu özellik bir html elementin içine node eklemek için bunu kullanırız.
+heading.appendChild(node); bu özellik bir html elementin içine node eklemek için bunu kullanırız.
 
-.insertBefore özelliği önce ekle anlamı katar. 
+.insertBefore özelliği önce ekle anlamı katar. 
 
-.removeChild() içine yazılanı kısmı kaldırır.
+.removeChild() içine yazılanı kısmı kaldırır.
 
-.replaceChild() içine değiştirilecek kısımları ayarlar.
+.replaceChild() içine değiştirilecek kısımları ayarlar.
 
-this keywordü nesnedir.
+this keywordü nesnedir.
 
-Prototyping (.prototype) neslerimize daha sonradan özellik eklememizi sağlar. 
+Prototyping (.prototype) neslerimize daha sonradan özellik eklememizi sağlar. 
 
-Closures ile global davranan ama sadece ilgili metodu kullanıcak şekilde ayarlamamızı sağlar. Tanımlanan fonkisyon parantez içine alınır ve sonuna parantez aç kapa yapılır.
+Closures ile global davranan ama sadece ilgili metodu kullanıcak şekilde ayarlamamızı sağlar. Tanımlanan fonkisyon parantez içine alınır ve sonuna parantez aç kapa yapılır.
 
-Classes sınıflar denir. Constructors, Fields (public or private), Functions, Static Members(özellikler). İçerdiği özellikleri taşır.
+Classes sınıflar denir. Constructors, Fields (public or private), Functions, Static Members(özellikler). İçerdiği özellikleri taşır.
 
-Inheritance miras yapısı denir. Ortak özelliklerin ortak operasyonların temel nesneden miras alınır tutulur taşınır.
+Inheritance miras yapısı denir. Ortak özelliklerin ortak operasyonların temel nesneden miras alınır tutulur taşınır.
 
-Abstract Classes temel sınıf görevi görür tek başına anlamı yoktur newlenemezler. Tamamlanmış veya tamamlanmamış operasyonları içerir base class görevi görür.
+Abstract Classes temel sınıf görevi görür tek başına anlamı yoktur newlenemezler. Tamamlanmış veya tamamlanmamış operasyonları içerir base class görevi görür.
 
-Interfaces solidin yapı taşıdır. Bağımlığın katmanlar operasyonlar arasında ortadan kaldırılmasını sağlar. Arayüz anlamına gelir şablon sunar. Tek başına, newlenemezler anlamları olmaz.
+Interfaces solidin yapı taşıdır. Bağımlığın katmanlar operasyonlar arasında ortadan kaldırılmasını sağlar. Arayüz anlamına gelir şablon sunar. Tek başına, newlenemezler anlamları olmaz.
 
 
 
