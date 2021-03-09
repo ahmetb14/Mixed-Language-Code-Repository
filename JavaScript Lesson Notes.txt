@@ -18,7 +18,7 @@ length: özelliği eleman sayısını verir.
 
 Object Tipi: Bir çok özelliği içerisinde barındırır. Örn: firstname lastname city age gibi bilgiler.
 
-Loose Typing / Dynamic Typing (Araştır Tekrardan)
+Loose Typing: Gevşek tip tanımlama denir.  /  Dynamic Typing: Dinamik tip tanımlama denir geniş metot aralığı sunar.
 
 alert özelliği uyarı mesaj vermeği sağlar.
 
@@ -65,6 +65,17 @@ Inheritance miras yapısı denir. Ortak özelliklerin ortak operasyonların teme
 Abstract Classes temel sınıf görevi görür tek başına anlamı yoktur newlenemezler. Tamamlanmış veya tamamlanmamış operasyonları içerir base class görevi görür.
 
 Interfaces solidin yapı taşıdır. Bağımlığın katmanlar operasyonlar arasında ortadan kaldırılmasını sağlar. Arayüz anlamına gelir şablon sunar. Tek başına, newlenemezler anlamları olmaz.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
