@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
+  <head>
+
+  </head>
   <body>
     <h1>Üye Kayıt Formu:</h1>
     <form name="kayit" action="kayit.php" method="GET">
       Ad Soyad:
-      <input
-        type="text"
-        name="adsoyad"
-        id="idadsoyad"
-        size="20"
-        maxlength="30"
-        required
-      />
-      <br />
-      <input type="submit" value="Tamam" />
-      <input type="reset" value="Temizle" />
+      <input type="text" name="adsoyad" id="idadsoyad"
+      size="20" maxlength="30" required>
+      <br>
+      Email:
+      <input type="email" name="email" id="email" required
+      >
+      <br>
+      Web Sitesi:
+      <input type="url" name="adres" id="adres">
+      <br>
+      Yaşınız:
+      <input type="number" name="yas" id="yas" required>
+      <br>
+      <br>
+      <input type="submit" value="Tamam">
+      <input type="reset" value="Temizle">
     </form>
   </body>
 </html>
