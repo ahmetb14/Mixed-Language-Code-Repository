@@ -1,0 +1,16 @@
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+//org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.jdt.ui.presentation
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jdt.ui.editors.textfont
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Consolas|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|-94|3|2|1|49|Consolas;
+org.eclipse.jdt.ui.editors.textfont=1|Consolas|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|-94|3|2|1|49|Consolas;
+org.eclipse.ui.ide.systemDefault.org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Consolas|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|-94|3|2|1|49|Consolas;
+org.eclipse.ui.ide.systemDefault.org.eclipse.jdt.ui.editors.textfont=1|Consolas|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|-94|3|2|1|49|Consolas;
+org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=37,41,45
+org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_TAB_BG_START=37,41,45
+org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_TAB_BG_START=53,60,65
+org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=37,41,45
+org.eclipse.ui.workbench.ACTIVE_TAB_BG_START=37,41,45
+org.eclipse.ui.workbench.INACTIVE_TAB_BG_START=53,60,65

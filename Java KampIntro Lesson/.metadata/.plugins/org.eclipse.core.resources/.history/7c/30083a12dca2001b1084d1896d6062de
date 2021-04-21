@@ -1,0 +1,29 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// camelCase
+		// Don't repeat yourself!
+
+		String internetSubeButonu = "-> Ýnternet Þubeye Gir !";
+
+		double dolarDun = 8.20;
+		double dolarBugun = 8.20;
+		int vade = 36;
+		boolean dustuMu = false;
+
+		System.out.println(internetSubeButonu);
+
+		if (dolarBugun < dolarDun) {
+			System.out.println("-> Dolar Düþtü Resmi Gösterildi.");
+		} else if (dolarBugun > dolarDun) {
+			System.out.println("-> Dolar Yükseldi Resmi Gösterildi.");
+		} else {
+			System.out.println("-> Dolar Eþittir Resmi Gösterildi.");
+		}
+		
+	}
+	
+}
