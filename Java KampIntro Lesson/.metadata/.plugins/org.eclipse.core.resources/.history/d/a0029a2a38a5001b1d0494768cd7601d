@@ -1,0 +1,16 @@
+package oopIntro;
+
+public class Product {
+	
+	//Constructor yapýcý blok.
+	
+	public Product() {
+		System.out.println("Ben Çalýþtým!");
+	}
+	
+	int id;
+	String name;
+	double unitPrice;
+	String detail;
+
+}

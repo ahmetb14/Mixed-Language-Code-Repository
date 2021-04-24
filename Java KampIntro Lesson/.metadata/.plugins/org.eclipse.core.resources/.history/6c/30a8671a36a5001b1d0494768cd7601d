@@ -1,0 +1,37 @@
+package oopIntro;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// Örnek oluþturma, "referans" oluþturma, intance vb.
+
+		Product product1 = new Product();
+		product1.id = 1;
+		product1.name = "Lenovo V14";
+		product1.unitPrice = 15000;
+		product1.detail = "16 GB Ram";
+
+		Product product2 = new Product();
+		product1.id = 2;
+		product1.name = "Lenovo V15";
+		product1.unitPrice = 16000;
+		product1.detail = "32 GB Ram";
+
+		Product product3 = new Product();
+		product1.id = 3;
+		product1.name = "HP 5";
+		product1.unitPrice = 10000;
+		product1.detail = "8 GB Ram";
+
+		Product[] products = { product1, product2, product3 };
+
+		for (Product product : products) {
+
+			System.out.println(product.name);
+		}
+
+		System.out.println(products.length);
+
+	}
+}
