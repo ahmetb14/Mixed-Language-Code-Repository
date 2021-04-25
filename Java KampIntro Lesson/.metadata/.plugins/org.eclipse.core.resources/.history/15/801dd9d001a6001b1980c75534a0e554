@@ -1,0 +1,11 @@
+package firstHomework;
+
+public class StudentService {
+
+	public void addStudent(Student student) {
+
+		System.out.println(student.name + "Öðrenci Baþarýyla Sisteme Ekleni!");
+
+	}
+
+}

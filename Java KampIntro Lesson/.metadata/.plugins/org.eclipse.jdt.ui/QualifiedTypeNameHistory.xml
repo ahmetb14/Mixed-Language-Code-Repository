@@ -2,7 +2,10 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="oopIntro.Category"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="oopIntro.Product"/>
     <fullyQualifiedTypeName name="oopIntro.ProductManager"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="firstHomework.StudentService"/>
+    <fullyQualifiedTypeName name="firstHomework.Student"/>
+    <fullyQualifiedTypeName name="firstHomework.Category"/>
 </qualifiedTypeNameHistroy>
