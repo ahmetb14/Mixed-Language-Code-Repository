@@ -1,0 +1,16 @@
+package inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Customer customer = new Customer();
+		customer.id = 1;
+		customer.firstName = "Ahmet";
+		customer.lastName = "Yýlmaz";
+		customer.nationalIdentity = "1000000";
+		customer.companyName = ""
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package inheritance;
+
+public class individualCustomer {
+	
+	int id;
+	String customerNumber;
+	String nationalIdentity;
+	String taxNumber;
+	
+}

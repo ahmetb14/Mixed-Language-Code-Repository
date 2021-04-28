@@ -1,0 +1,19 @@
+package inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		ÝndividualCustomer ahmet = new ÝndividualCustomer();
+		ahmet.customerNumber = "123456";
+
+		CorporateCustomer hepsiBurada = new CorporateCustomer();
+		hepsiBurada.companyNumber = "654123";
+
+		CustomerManager customerManager = new CustomerManager();
+		customerManager.add(hepsiBurada);
+		customerManager.add(ahmet);
+
+	}
+
+}

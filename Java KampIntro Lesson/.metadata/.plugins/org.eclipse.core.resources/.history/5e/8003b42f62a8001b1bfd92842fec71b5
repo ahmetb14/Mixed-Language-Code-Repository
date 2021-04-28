@@ -1,0 +1,13 @@
+package inheritance;
+
+public class CustomerManager {
+
+	public void add(ÝndividualCustomer customer) {
+		System.out.println(customer.customerNumber + " Kaydedildi!");
+	}
+
+	public void add(CorporateCustomer customer) {
+		System.out.println(customer.customerNumber + " Kaydedildi!");
+	}
+
+}

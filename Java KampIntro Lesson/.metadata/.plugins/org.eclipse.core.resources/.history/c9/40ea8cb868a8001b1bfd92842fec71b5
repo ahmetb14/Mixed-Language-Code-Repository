@@ -1,0 +1,14 @@
+package inheritance2;
+
+public class CustomerManager {
+
+	public void add(Logger logger) {
+
+		// Müþteri ekleme kodlarý.
+		System.out.println("Müþteri Eklendi!");
+		DatabaseLogger logger = new DatabaseLogger();
+		logger.log();
+
+	}
+
+}

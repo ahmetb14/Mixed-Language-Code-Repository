@@ -1,0 +1,13 @@
+package inheritance;
+
+public class CustomerManager {
+	
+	public void add(ÝndividualCustomer customer) {
+		
+	}
+	
+	public void add(CorporateCustomer customer) {
+		
+	}
+	
+}

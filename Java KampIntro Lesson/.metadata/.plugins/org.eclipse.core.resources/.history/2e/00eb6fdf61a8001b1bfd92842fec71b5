@@ -1,0 +1,14 @@
+package inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ÝndividualCustomer ahmet = new ÝndividualCustomer();
+		
+		
+		CorporateCustomer hepsiBurada = new CorporateCustomer();
+		
+	}
+
+}
