@@ -1,0 +1,36 @@
+package twoHomework;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		System.out.println("|--------------------------------------------------------|");
+
+		InstructorManager instructorManager = new InstructorManager();
+		Instructor instructor = new Instructor(1, "> Engin Demiroğ", 30, "engin@engin.com", 3000, 100);
+		instructorManager.add(instructor);
+		instructor.setName("> ENGİN DEMİROĞ");
+		instructorManager.update(instructor);
+		instructorManager.delete(instructor);
+
+		System.out.println("|--------------------------------------------------------|");
+
+		StudentManager studentManager = new StudentManager();
+		Student student = new Student(2, "> Ahmet Berkay Yılmaz", 19, "ahmet@ahmet.com", 80, 10);
+		studentManager.add(student);
+		student.setName("> AHMET BERKAY YILMAZ");
+		studentManager.update(student);
+		studentManager.delete(student);
+
+		System.out.println("|--------------------------------------------------------|");
+
+		UserManager userManager = new UserManager();
+		userManager.getAll(student);
+		userManager.getAll(instructor);
+		
+		System.out.println("|--------------------------------------------------------|");
+
+		
+	}
+
+}

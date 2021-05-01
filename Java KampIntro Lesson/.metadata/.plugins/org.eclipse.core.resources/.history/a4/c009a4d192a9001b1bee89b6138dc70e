@@ -1,0 +1,10 @@
+package twoHomework;
+
+public class Instructor extends User {
+	
+	private int numberOfStudent;
+	private int numberOfCourses;
+	
+	
+	
+}

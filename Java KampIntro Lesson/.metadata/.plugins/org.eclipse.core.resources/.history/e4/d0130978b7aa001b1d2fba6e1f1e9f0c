@@ -1,0 +1,15 @@
+package interfaces;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		CustomerManager customerManager = new CustomerManager();
+
+		Customer ahmet = new Customer(1, "Ahmet Berkay", "Yılmaz");
+
+		customerManager.add(ahmet);
+
+	}
+
+}

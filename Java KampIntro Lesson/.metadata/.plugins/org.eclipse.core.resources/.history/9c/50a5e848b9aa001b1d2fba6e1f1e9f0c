@@ -1,0 +1,33 @@
+package interfaces;
+
+public class CustomerManager {
+
+	private Logger[] loggers;
+
+	public CustomerManager(Logger[] loggers) {
+		for (Logger logger : loggers) {
+			this.loggers = loggers;
+		}
+	}
+
+	public void add(Customer customer) {
+
+		System.out.println("Müþteri Eklendi! " + customer.getFirstName());
+		for(Logger logger : loggers) {
+			logger.log(customer.getFirstName());
+		}
+
+	}
+
+	public void delete(Customer customer) {
+
+		System.out.println("Müþteri Silindi! " + customer.getFirstName());
+		for(Logger logger : loggers) {
+			logger.log(customer.getFirstName());
+		}
+
+	}
+
+}
+//Simple is best.
+//loosly coupled (gevþek baðýmlýlýk) - tightly coupled (katý baðýmlýlýk)

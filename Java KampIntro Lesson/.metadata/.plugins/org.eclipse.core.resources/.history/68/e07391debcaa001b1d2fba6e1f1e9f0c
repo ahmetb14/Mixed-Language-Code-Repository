@@ -1,0 +1,11 @@
+package interfaces;
+
+public class Utils {
+
+	public void RunLoggers(Logger[] loggers) {
+		for (Logger logger : loggers) {
+			logger.log(customer.getFirstName());
+		}
+	}
+
+}

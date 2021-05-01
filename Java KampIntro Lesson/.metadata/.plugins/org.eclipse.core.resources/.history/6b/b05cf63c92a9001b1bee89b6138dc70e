@@ -1,0 +1,9 @@
+package twoHomework;
+
+public class Instructor {
+	
+	private int numberOfStudent;
+	private int numberOfCourses;
+	
+	
+}

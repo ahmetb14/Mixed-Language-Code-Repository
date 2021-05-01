@@ -10,11 +10,24 @@
     <fullyQualifiedTypeName name="inheritance.individualCustomer"/>
     <fullyQualifiedTypeName name="inheritance.corporateCustomer"/>
     <fullyQualifiedTypeName name="inheritance.CustomerManager"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="inheritance.UnionCustomer"/>
     <fullyQualifiedTypeName name="inheritance2.LogManager"/>
     <fullyQualifiedTypeName name="inheritance2.CustomerManager"/>
     <fullyQualifiedTypeName name="inheritance2.DatabaseLogger"/>
     <fullyQualifiedTypeName name="inheritance2.FileLogger"/>
     <fullyQualifiedTypeName name="inheritance2.EmailLogger"/>
+    <fullyQualifiedTypeName name="twoHomework.User"/>
+    <fullyQualifiedTypeName name="twoHomework.InstructorManager"/>
+    <fullyQualifiedTypeName name="twoHomework.Instructor"/>
+    <fullyQualifiedTypeName name="twoHomework.StudentManager"/>
+    <fullyQualifiedTypeName name="twoHomework.Student"/>
+    <fullyQualifiedTypeName name="twoHomework.UserManager"/>
+    <fullyQualifiedTypeName name="interfaces.Logger"/>
+    <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
+    <fullyQualifiedTypeName name="interfaces.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="interfaces.SmsLogger"/>
+    <fullyQualifiedTypeName name="interfaces.EmailLogger"/>
+    <fullyQualifiedTypeName name="interfaces.FileLogger"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="interfaces.Utils"/>
 </qualifiedTypeNameHistroy>

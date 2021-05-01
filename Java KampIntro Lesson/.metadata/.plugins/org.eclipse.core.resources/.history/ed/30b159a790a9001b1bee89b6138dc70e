@@ -1,0 +1,16 @@
+package twoHomework;
+
+public class User {
+	
+	private int id;
+	private String firstName;
+	private String lastName;
+	private int age;
+	
+	public User(String firstName,String lastName) {
+			setId();
+			setFirstName(firstName);
+			setLastName(lastName);
+	}
+	
+}
