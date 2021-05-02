@@ -1,0 +1,13 @@
+package Entities;
+
+import Abstract.Entity;
+
+public class Player implements Entity {
+	
+	private String id;
+	private String firstName;
+	private String lastName;
+	private String tcNo;
+	private String dateOfBirth;
+	
+}

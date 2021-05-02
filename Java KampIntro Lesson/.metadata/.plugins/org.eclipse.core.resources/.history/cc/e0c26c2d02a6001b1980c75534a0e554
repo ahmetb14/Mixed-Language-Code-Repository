@@ -1,9 +1,0 @@
-package firstHomework;
-
-public class Category {
-	
-	int id;
-	String ýnstructor;
-	String courseName;
-	
-}

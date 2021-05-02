@@ -1,0 +1,40 @@
+package concrete;
+
+import Abstract.PlayerService;
+import Abstract.ValidationService;
+import Entities.Game;
+import Entities.Player;
+
+public class PlayerManager implements PlayerService {
+
+	ValidationService validationService;
+
+	@Override
+	public void login(Player player) {
+
+		System.out.println(player.getFirstName() + " -> Sisteme Giriş Yapıldı!");
+
+	}
+
+	@Override
+	public void register(Player player) {
+
+		System.out.println(player.getFirstName() + " -> Sisteme Kayıt Yapıldı!");
+
+	}
+
+	@Override
+	public void logout(Player player) {
+
+		System.out.println(player.getFirstName() + " -> Sistemden Çıkış Yapıldı!");
+
+	}
+
+	@Override
+	public void buyGame(Player player, Game game) {
+
+		System.out.println(player.getFirstName() + game.getName() + " -> İsimli Oyun Satın Alındı!");
+
+	}
+
+}

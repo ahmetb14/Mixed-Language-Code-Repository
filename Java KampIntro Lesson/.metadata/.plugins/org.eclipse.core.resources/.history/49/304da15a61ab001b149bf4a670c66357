@@ -1,0 +1,11 @@
+package Abstract;
+
+public interface CampaingService {
+	void add(Campaing campaing);
+
+	void update(Campaing campaing);
+
+	void delete(Campaing campaing);
+
+	void useCampaing(Campaing campaing, Game game);
+}

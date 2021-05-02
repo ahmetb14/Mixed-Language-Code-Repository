@@ -1,0 +1,14 @@
+package Abstract;
+
+import Entities.Player;
+
+public interface PlayerService {
+
+	void login(Player player);
+
+	void register(Player player);
+
+	void logout(Player player);
+
+	void buyGame(Player player);
+}

@@ -1,0 +1,9 @@
+package Entities;
+
+import Abstract.Entity;
+
+public class Campaing implements Entity {
+	
+	
+	
+}

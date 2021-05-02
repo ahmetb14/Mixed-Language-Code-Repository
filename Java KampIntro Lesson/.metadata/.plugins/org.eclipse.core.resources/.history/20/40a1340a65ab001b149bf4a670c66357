@@ -1,0 +1,35 @@
+package Concrete;
+
+import Abstract.GameService;
+import Entities.Game;
+
+public class GameManager implements GameService {
+
+	@Override
+	public void add(Game game) {
+
+		System.out.println(game.getName() + " Ýsimli Oyun Eklendi!");
+
+	}
+
+	@Override
+	public void update(Game game) {
+
+		System.out.println(game.getName() + " Ýsimli Oyun Güncellendi!");
+
+	}
+
+	@Override
+	public void delete(Game game) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void play(Game game) {
+
+		System.out.println(game.getName() + " Ýsimli Oyun Oynanýyor!");
+
+	}
+
+}

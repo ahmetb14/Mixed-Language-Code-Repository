@@ -1,0 +1,32 @@
+package Concrete;
+
+import Abstract.PlayerService;
+import Entities.Player;
+
+public class PlayerManager implements PlayerService {
+
+	@Override
+	public void login(Player player) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void register(Player player) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void logout(Player player) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buyGame(Player player) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

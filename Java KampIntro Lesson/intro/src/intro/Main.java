@@ -1,7 +1,5 @@
 package intro;
 
-import java.util.Iterator;
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -44,8 +42,6 @@ public class Main {
 
 		String[] krediler = { "-Hýzlý Kredi?", "-Mutlu Emekli Kredisi?", "-Konut Kredisi?", "-Çiftçi Kredisi?",
 				"-Milli Savuma Bakanlýðý Kredisi?", "-Milli Eðitim Bakanlýðý Kredisi?", "-Kültür Bakanlýðý Kredisi?" };
-
-		// foreach loop
 
 		for (String kredi : krediler) {
 			System.out.println(kredi);

@@ -1,0 +1,12 @@
+package Concrete;
+
+import Abstract.CampaingService;
+import Entities.Campaign;
+
+public class CampaingManager implements CampaingService {
+
+
+	
+	
+	
+}

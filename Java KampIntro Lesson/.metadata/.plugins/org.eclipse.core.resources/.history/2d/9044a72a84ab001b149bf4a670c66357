@@ -1,0 +1,9 @@
+package abstracts;
+
+import entites.Player;
+
+public interface ValidationService {
+
+	String confirm(Player player);
+
+}

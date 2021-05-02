@@ -1,0 +1,12 @@
+package Abstract;
+
+import Entities.Campaign;
+
+public interface CampaingService {
+		
+	void add(Campaign );
+	void update();
+	void delete();
+	void use();
+	
+}

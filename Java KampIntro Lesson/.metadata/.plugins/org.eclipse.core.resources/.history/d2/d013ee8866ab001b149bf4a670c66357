@@ -1,0 +1,18 @@
+package Concrete;
+
+import Abstract.ValidationService;
+import Entities.Player;
+
+public class ValidationManager implements ValidationService {
+
+	@Override
+	public boolean confirm(Player player) {
+		if (player.getTcNo().isEmpty()) {
+			return false;
+		} else {
+			return true;
+		}
+
+	}
+
+}
