@@ -1,0 +1,8 @@
+package nLayeredDemo.business.concretes;
+
+import nLayeredDemo.business.abstracts.ProductService;
+
+public class ProductManager implements ProductService {
+	
+	
+}

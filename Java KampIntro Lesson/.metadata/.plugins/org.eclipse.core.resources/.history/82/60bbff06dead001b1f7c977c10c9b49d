@@ -1,0 +1,20 @@
+package nLayeredDemo.business.concretes;
+
+import java.util.List;
+
+import nLayeredDemo.business.abstracts.ProductService;
+import nLayeredDemo.entities.concretes.Product;
+
+public class ProductManager implements ProductService {
+
+	@Override
+	public void add(Product product) {
+
+	}
+
+	@Override
+	public List<Product> getAll() {
+		return null;
+	}
+
+}

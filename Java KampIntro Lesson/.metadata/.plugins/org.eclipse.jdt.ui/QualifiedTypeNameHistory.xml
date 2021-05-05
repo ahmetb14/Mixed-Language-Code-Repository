@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="oopIntro.Category"/>
     <fullyQualifiedTypeName name="oopIntro.Product"/>
     <fullyQualifiedTypeName name="oopIntro.ProductManager"/>
     <fullyQualifiedTypeName name="firstHomework.StudentService"/>
@@ -50,5 +48,16 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.validation.ValidationManager"/>
     <fullyQualifiedTypeName name="concretes.ValidationManager"/>
     <fullyQualifiedTypeName name="abstracts.ValidationService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.entities.abstracts.Entity"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.business.abstracts.ProductService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.business.concretes.ProductManager"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.HibernateProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.entities.concretes.Product"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.AbcProductDao"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.core.LoggerService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.jLogger.JLoggerManager"/>
 </qualifiedTypeNameHistroy>

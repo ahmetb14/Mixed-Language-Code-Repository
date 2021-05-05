@@ -1,0 +1,5 @@
+package nLayeredDemo.business.concretes;
+
+public class ProductManager {
+
+}

@@ -1,0 +1,11 @@
+package nLayeredDemo.entities.concretes;
+
+public class Product {
+	
+	private int id;
+	private int categoryId;
+	private String name;
+	private double untiPrice;
+	private int unitsInStock;
+	
+}

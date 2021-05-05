@@ -1,0 +1,29 @@
+package nLayeredDemo.business.concretes;
+
+import java.util.List;
+
+import nLayeredDemo.business.abstracts.ProductService;
+import nLayeredDemo.dataAccess.concretes.HibernateProductDao;
+import nLayeredDemo.entities.concretes.Product;
+
+public class ProductManager implements ProductService {
+
+	@Override
+	public void add(Product product) {
+		
+		if(product.getCategoryId() == 1) {
+			System.out.println("Bu Kategoride Ürün Kabul Edilemiyor!");
+			return;
+		}
+		
+		HibernateProductDao dao = new HibernateProductDao();
+		dao.add(product);
+		
+	}
+
+	@Override
+	public List<Product> getAll() {
+		return null;
+	}
+
+}
