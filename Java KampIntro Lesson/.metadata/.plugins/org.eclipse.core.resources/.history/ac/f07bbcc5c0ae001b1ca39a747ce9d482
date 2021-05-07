@@ -1,0 +1,81 @@
+package nLayeredFourHomework.dataAccess.concretes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import nLayeredFourHomework.dataAccess.abstracts.CustomerDao;
+import nLayeredFourHomework.entities.concretes.Customer;
+
+public class HibernateCustomerDao implements CustomerDao {
+
+	List<Customer> customersFake = new ArrayList<Customer>();
+	Customer customer = new Customer(1, "Ahmet Berkay", "Yýlmaz", "ahmetbekay26@ahmet.com", "951753");
+
+	Customer customer2 = new Customer(2, "Görkem", "Öcal", "görkem26@görkem.com", "159753");
+
+	Customer customer3 = new Customer(3, "Mustafa Berk", "Akgül", "mustafaberk26@mustafa.com", "753951");
+
+	@Override
+	public void add(Customer customer) {
+
+		customersFake.add(customer);
+		System.out.println("Hibernate ile Eklendi! : " + customer.getFirstName());
+
+	}
+
+	@Override
+	public void update(Customer customer) {
+
+		Customer customerToUpdate = get(customer.getId());
+		customerToUpdate.setFirstName(customer.getFirstName());
+		customerToUpdate.setLastName(customer.getLastName());
+		System.out.println("> Hibernate ile Güncellendi! : " + customer.getFirstName());
+
+	}
+
+	@Override
+	public void delete(Customer customer) {
+
+		customersFake.removeIf(obj -> obj.getId() == customer.getId());
+		System.out.println("> Hibernate ile Silindi! : " + customer.getFirstName());
+
+	}
+
+	@Override
+	public List<Customer> getAll() {
+		return customersFake;
+	}
+
+	@Override
+	public Customer getPasswordByEmail(String email, String password) {
+		for (Customer customer : customersFake) {
+
+			if (customer.getEmail() == email && customer.getPassword() == password) {
+
+				return customer;
+			}
+
+		}
+
+		return null;
+
+	}
+
+	@Override
+	public Customer get(int id) {
+
+		for (Customer customer : customersFake) {
+
+			if (customer.getId() == id) {
+
+				return customer;
+
+			}
+
+		}
+
+		return null;
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package nLayeredFourHomework.business.concretes;
+
+public class CustomerValidationManager {
+
+}

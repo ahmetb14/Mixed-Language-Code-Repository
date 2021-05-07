@@ -1,0 +1,5 @@
+package nLayeredFourHomework.entities.concretes;
+
+public class Customer {
+
+}

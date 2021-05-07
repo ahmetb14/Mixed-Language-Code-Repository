@@ -1,0 +1,7 @@
+package nLayeredFourHomework.business.concretes;
+
+public class CustomerManager {
+	
+	private CustomerDao customerDao;
+	
+}

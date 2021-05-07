@@ -1,0 +1,27 @@
+package nLayeredFourHomework.business.concretes;
+
+import java.util.regex.Pattern;
+
+import nLayeredFourHomework.business.abstracts.CustomerValidationService;
+import nLayeredFourHomework.entities.concretes.Customer;
+
+public class CustomerValidationManager implements CustomerValidationService {
+
+	static String regex = "^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$";
+
+	@Override
+	public boolean isValid(Customer customer) {
+
+		if(customer.getFirstName().length()<=2 || customer.getLastName().length()<=1 || isValidEmail(customer.getEmail())==false || customer.getPassword().length()<=7))) {
+			
+		}
+
+	}
+
+	private boolean isValidEmail(String email) {
+
+		return Pattern.matches(regex, email);
+
+	}
+
+}

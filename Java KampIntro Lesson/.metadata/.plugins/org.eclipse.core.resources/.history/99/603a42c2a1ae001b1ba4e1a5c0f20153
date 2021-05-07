@@ -1,0 +1,23 @@
+package nLayeredFourHomework.business.concretes;
+
+import java.util.regex.Pattern;
+
+import nLayeredFourHomework.business.abstracts.CustomerValidationService;
+import nLayeredFourHomework.entities.concretes.Customer;
+
+public class CustomerValidationManager implements CustomerValidationService {
+
+	@Override
+	public boolean isValid(Customer customer) {
+
+		return false;
+
+	}
+	
+	private boolean isValidEmail(String email) {
+		
+		return Pattern.matches(regex, email);
+		
+	}
+	
+}

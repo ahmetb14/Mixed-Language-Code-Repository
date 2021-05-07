@@ -1,0 +1,7 @@
+package nLayeredFourHomework.business.abstracts;
+
+public interface CustomerValidationService {
+	
+	boolean isValid(Customer customer);
+	
+}

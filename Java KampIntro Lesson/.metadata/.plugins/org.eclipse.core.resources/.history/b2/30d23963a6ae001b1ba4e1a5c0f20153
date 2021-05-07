@@ -1,0 +1,9 @@
+package nLayeredFourHomework.core;
+
+public interface ValidationService {
+
+	void login(int id, String firstName, String lastName, String email, String password);
+
+	void register(String email, String password);
+
+}

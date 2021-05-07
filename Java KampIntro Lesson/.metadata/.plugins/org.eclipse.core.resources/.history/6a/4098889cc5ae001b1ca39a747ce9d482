@@ -1,0 +1,23 @@
+package nLayeredFourHomework.utils;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import nLayeredFourHomework.entities.concretes.Customer;
+
+public class FakeDb {
+	public static List<Customer> GetCustomerList(){
+		List<Customer> customersFake = new ArrayList<Customer>();
+		Customer customer = new Customer(1, "Ahmet Berkay", "Yýlmaz", "ahmetbekay26@ahmet.com", "951753");
+
+		Customer customer2 = new Customer(2, "Görkem", "Öcal", "görkem26@görkem.com", "159753");
+
+		Customer customer3 = new Customer(3, "Mustafa Berk", "Akgül", "mustafaberk26@mustafa.com", "753951");
+
+		customersFake.add(customer);
+		customersFake.add(customer3);
+		customersFake.add(customer2);
+
+		return customersFake;
+	}
+}

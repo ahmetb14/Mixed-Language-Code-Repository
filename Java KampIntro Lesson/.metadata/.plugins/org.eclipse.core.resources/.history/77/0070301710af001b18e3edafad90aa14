@@ -1,0 +1,77 @@
+package nLayeredFourHomework;
+
+import java.util.List;
+import nLayeredFourHomework.business.abstracts.CustomerService;
+import nLayeredFourHomework.business.abstracts.CustomerValidationService;
+import nLayeredFourHomework.business.concretes.BaseValidationManager;
+import nLayeredFourHomework.business.concretes.CustomerManager;
+import nLayeredFourHomework.business.concretes.CustomerValidationManager;
+import nLayeredFourHomework.core.ValidationService;
+import nLayeredFourHomework.core.loginWithGoogleAdapter;
+import nLayeredFourHomework.core.email.EmailManager;
+import nLayeredFourHomework.core.email.EmailService;
+import nLayeredFourHomework.dataAccess.concretes.HibernateCustomerDao;
+import nLayeredFourHomework.entities.concretes.Customer;
+import nLayeredFourHomework.utils.FakeDb;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		List<Customer> customersFake = FakeDb.GetCustomerFakeList();
+
+		List<Customer> customersList = FakeDb.GetCustomerList();
+
+		CustomerService customerService = new CustomerManager(new HibernateCustomerDao(customersFake));
+		CustomerValidationService customerValidationService = new CustomerValidationManager();
+		EmailService emailService = new EmailManager();
+		ValidationService validationService = new BaseValidationManager(customerService, customerValidationService,
+				emailService, customersList);
+
+		System.out.println("---------------------------------------------------------------");
+		System.out.println();
+		System.out.println("***************************************************************");
+		System.out.println("               -> KAYIT ÝÞLEMLERÝ EKRANI <-");
+		System.out.println("***************************************************************");
+		for (Customer customerLi : customersList) {
+			System.out.println();
+			System.out.println("---------------------------------------------------------------");
+			validationService.register(customerLi);
+		}
+
+		System.out.println("---------------------------------------------------------------");
+
+		System.out.println();
+		System.out.println("***************************************************************");
+		System.out.println("               -> GÝRÝÞ ÝÞLEMLERÝ EKRANI <-");
+		System.out.println("***************************************************************");
+		for (Customer customerLi : customersFake) {
+			System.out.println();
+			System.out.println("---------------------------------------------------------------");
+			validationService.login(customerLi);
+		}
+
+		System.out.println("---------------------------------------------------------------");
+
+		System.out.println();
+		System.out.println("***************************************************************");
+		System.out.println("         -> GOOGLE ÝLE GÝRÝÞ ÝÞLEMLERÝ EKRANI <-");
+		System.out.println("***************************************************************");
+		System.out.println();
+
+		ValidationService googleValdaitonService = new loginWithGoogleAdapter();
+		System.out.println("---------------------------------------------------------------");
+		Customer customerGoogle = new Customer(4, "Burak Emre", "Aktaþ", "burakemre26@burak.com", "369147");
+		googleValdaitonService.register(customerGoogle);
+		googleValdaitonService.login(customerGoogle);
+
+		System.out.println("---------------------------------------------------------------");
+		System.out.println();
+		System.out.println("***************************************************************");
+		System.out.println("         -> E TÝCARET ÝÞLEM PANELÝ EKRANLARI <- ");
+		System.out.println("***************************************************************");
+		System.out.println("---------------------------------------------------------------");
+
+	}
+
+}

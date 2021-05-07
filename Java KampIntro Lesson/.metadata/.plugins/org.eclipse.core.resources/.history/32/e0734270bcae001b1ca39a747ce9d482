@@ -1,0 +1,6 @@
+package nLayeredFourHomework.core.email;
+
+
+	void transmitting(String message, String email);
+
+}

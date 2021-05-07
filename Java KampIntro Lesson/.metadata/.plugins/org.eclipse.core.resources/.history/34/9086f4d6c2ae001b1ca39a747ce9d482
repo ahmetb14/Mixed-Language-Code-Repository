@@ -1,0 +1,73 @@
+package nLayeredFourHomework.business.concretes;
+
+import java.util.List;
+
+import nLayeredFourHomework.business.abstracts.CustomerService;
+import nLayeredFourHomework.business.abstracts.CustomerValidationService;
+import nLayeredFourHomework.core.ValidationService;
+import nLayeredFourHomework.core.email.EmailService;
+import nLayeredFourHomework.entities.concretes.Customer;
+
+public class BaseValidationManager implements ValidationService {
+
+	List<Customer> customers;
+	CustomerService customerService;
+	CustomerValidationService customerValidationService;
+	EmailService emailService;
+
+	public BaseValidationManager(CustomerService customerService, CustomerValidationService customerValidationService,
+			EmailService emailService,List<Customer> customers) {
+
+		this.customerService = customerService;
+		this.customerValidationService = customerValidationService;
+		this.emailService = emailService;
+		this.customers = customers;
+
+	}
+
+	@Override
+	public void login(String email, String password) {
+
+		Customer customerToLogin = customerService.getPasswordByEmail(email, password);
+		if (email == null || password == null) {
+			System.out.println("> Giriþ Yapma Baþarýsýz!, Lütfen Tüm Girdi Alanlarýný Doldurunuz!");
+			return;
+		}
+		if (customerToLogin == null) {
+			System.out.println("> Giriþ Yapma Baþarýsýz!, Lütfen Girdilerinizi Kontrol Edip Tekrar Deneyiniz!");
+			return;
+		} else {
+			System.out.println("> Giriþ Yapma Baþarýlý!, Hoþgeldiniz " + customerToLogin.getFirstName() + " "
+					+ customerToLogin.getLastName());
+
+		}
+
+	}
+
+	@Override
+	public void register(Customer customer) {
+
+		for (Customer customer : customers) {
+			if(customer.getEmail().equals(email)&&customer.getPassword().equals(password)) {
+				System.out.println("Kayýt baþarýsýz ");
+				System.out.println("Bu Email mevcut : "  + customer.getEmail());
+				return;
+			}
+		}
+		
+		
+		Customer customerToRegister = new Customer(customer.getId(), customer.getFirstName(), customer.getLastName(), customer.getEmail(), customer.getPassword());
+		if (customerValidationService.isValid(customerToRegister) == false) {
+			System.out.println("> Kayýt Olma Baþarýsýz!, Lütfen Girdilerinizi Kontrol Edip Tekrar Deneyiniz!");
+			return;
+		} else {
+			System.out.println(
+					"> Kayýt Olma Baþarýlý!, Lütfen Email Adresinize Gelen Doðrulama Linkine Týklayarak Kayýt Olma Ýþlemini Tamamlayýnýz!");
+			emailService.transmitting("> Kayýt Olmayý Doðrulamak Ýçin Buraya Týklayýnýz!",
+					customerToRegister.getEmail());
+			customerService.add(customerToRegister);
+		}
+
+	}
+
+}

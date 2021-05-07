@@ -1,0 +1,5 @@
+package nLayeredFourHomework.dataAccess.concretes;
+
+public class HibernateCustomerDao {
+
+}

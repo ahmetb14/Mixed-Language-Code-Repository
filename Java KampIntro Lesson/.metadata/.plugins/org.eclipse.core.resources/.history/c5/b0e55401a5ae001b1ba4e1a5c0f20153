@@ -1,0 +1,10 @@
+package nLayeredFourHomework.core.email;
+
+public class EmailManager implements EmailService {
+
+	@Override
+	public void transmitting(String message, String email) {
+
+	}
+
+}

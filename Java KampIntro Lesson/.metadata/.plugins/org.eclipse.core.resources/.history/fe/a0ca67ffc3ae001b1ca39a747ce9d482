@@ -1,0 +1,11 @@
+package nLayeredFourHomework.core;
+
+import nLayeredFourHomework.entities.concretes.Customer;
+
+public interface ValidationService {
+
+	void login(String email, String password);
+
+	void register(Customer customer);
+
+}

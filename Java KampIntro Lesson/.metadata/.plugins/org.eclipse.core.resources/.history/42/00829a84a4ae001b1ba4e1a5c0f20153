@@ -1,0 +1,5 @@
+package nLayeredFourHomework.core.email;
+
+public interface ValidationService {
+
+}

@@ -1,0 +1,5 @@
+package nLayeredFourHomework.dataAccess.abstracts;
+
+public interface CustomerDao {
+
+}

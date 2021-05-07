@@ -1,0 +1,57 @@
+package nLayeredFourHomework.business.concretes;
+
+import java.util.List;
+
+import nLayeredFourHomework.business.abstracts.CustomerService;
+import nLayeredFourHomework.dataAccess.abstracts.CustomerDao;
+import nLayeredFourHomework.entities.concretes.Customer;
+
+public class CustomerManager implements CustomerService {
+	
+	private CustomerDao customerDao;
+	
+	public CustomerManager(CustomerDao customerDao) {
+		super();
+		this.customerDao = customerDao;
+	}
+	
+	public CustomerManager() {
+		
+	}
+	
+	@Override
+	public void add(Customer customer) {
+
+	}
+
+	@Override
+	public void update(Customer customer) {
+
+	}
+
+	@Override
+	public void remove(Customer customer) {
+
+	}
+
+	@Override
+	public void verifyCustomer(int id) {
+
+	}
+
+	@Override
+	public List<Customer> getAll() {
+		return null;
+	}
+
+	@Override
+	public Customer get(int id) {
+		return null;
+	}
+
+	@Override
+	public Customer getPasswordByEmail(String email, String password) {
+		return null;
+	}
+
+}

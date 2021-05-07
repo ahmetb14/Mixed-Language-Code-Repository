@@ -1,0 +1,12 @@
+package nLayeredFourHomework.core.email;
+
+public class EmailManager implements EmailService {
+
+	@Override
+	public void transmitting(String message, String email) {
+
+		System.out.println(email + " > Email Adresine " + message + " Gönderildi!");
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package nLayeredFourHomework.business.concretes;
+
+import nLayeredFourHomework.business.abstracts.CustomerValidationService;
+import nLayeredFourHomework.entities.concretes.Customer;
+
+public class CustomerValidationManager implements CustomerValidationService {
+
+	@Override
+	public boolean isValid(Customer customer) {
+
+		return false;
+
+	}
+
+}

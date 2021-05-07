@@ -1,0 +1,9 @@
+package nLayeredFourHomework.loginWithGoogle;
+
+public class loginWithGoogleManager {
+		
+	public void login(String email,String password) {
+		
+	}
+	
+}

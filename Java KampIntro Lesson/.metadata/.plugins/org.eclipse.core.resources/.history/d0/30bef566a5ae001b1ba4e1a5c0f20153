@@ -1,0 +1,17 @@
+package nLayeredFourHomework.core;
+
+public class loginWithGoogleAdapter implements ValidationService {
+
+	@Override
+	public void login(int id, String firstName, String lastName, String email, String password) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void register(String email, String password) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package nLayeredFourHomework.business.concretes;
+
+import nLayeredFourHomework.dataAccess.abstracts.CustomerDao;
+
+public class CustomerManager {
+	
+}

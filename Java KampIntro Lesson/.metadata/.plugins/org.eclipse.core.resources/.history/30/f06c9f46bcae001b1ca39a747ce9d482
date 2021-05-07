@@ -1,0 +1,67 @@
+package nLayeredFourHomework.business.concretes;
+
+import nLayeredFourHomework.business.abstracts.CustomerService;
+import nLayeredFourHomework.business.abstracts.CustomerValidationService;
+import nLayeredFourHomework.core.ValidationService;
+import nLayeredFourHomework.core.email.EmailService;
+import nLayeredFourHomework.entities.concretes.Customer;
+
+public class BaseValidationManager implements ValidationService {
+
+	Customer customer;
+	CustomerService customerService;
+	CustomerValidationService customerValidationService;
+	EmailService emailService;
+
+	public BaseValidationManager(CustomerService customerService, CustomerValidationService customerValidationService,
+			EmailService emailService,Customer customer) {
+
+		super();
+		this.customerService = customerService;
+		this.customerValidationService = customerValidationService;
+		this.emailService = emailService;
+		this.customer = customer;
+
+	}
+
+	@Override
+	public void login(String email, String password) {
+
+		Customer customerToLogin = customerService.getPasswordByEmail(email, password);
+		if (email == null || password == null) {
+			System.out.println("> Giriþ Yapma Baþarýsýz!, Lütfen Tüm Girdi Alanlarýný Doldurunuz!");
+			return;
+		}
+		if (customerToLogin == null) {
+			System.out.println("> Giriþ Yapma Baþarýsýz!, Lütfen Girdilerinizi Kontrol Edip Tekrar Deneyiniz!");
+			return;
+		} else {
+			System.out.println("> Giriþ Yapma Baþarýlý!, Hoþgeldiniz " + customerToLogin.getFirstName() + " "
+					+ customerToLogin.getLastName());
+
+		}
+
+	}
+
+	@Override
+	public void register(int id, String firstName, String lastName, String email, String password,boolean isValid) {
+
+		if(customer.getEmail().equals(email)) {
+			return;
+		}
+		
+		Customer customerToRegister = new Customer(id, firstName, lastName, email, password, false);
+		if (customerValidationService.isValid(customerToRegister) == false) {
+			System.out.println("> Kayýt Olma Baþarýsýz!, Lütfen Girdilerinizi Kontrol Edip Tekrar Deneyiniz!");
+			return;
+		} else {
+			System.out.println(
+					"> Kayýt Olma Baþarýlý!, Lütfen Email Adresinize Gelen Doðrulama Linkine Týklayarak Kayýt Olma Ýþlemini Tamamlayýnýz!");
+			emailService.transmitting("> Kayýt Olmayý Doðrulamak Ýçin Buraya Týklayýnýz!",
+					customerToRegister.getEmail());
+			customerService.add(customerToRegister);
+		}
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package nLayeredFourHomework.business.abstracts;
+
+public interface CustomerService {
+
+}

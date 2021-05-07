@@ -1,0 +1,17 @@
+package nLayeredFourHomework.business.abstracts;
+
+import nLayeredFourHomework.entities.concretes.Customer;
+
+public interface CustomerService {
+
+	void add(Customer customer);
+
+	void update(Customer customer);
+
+	void remove(Customer customer);
+
+	void verifyCustomer(int id);
+
+	Customer getPasswordByEmail(String email, String password);
+
+}

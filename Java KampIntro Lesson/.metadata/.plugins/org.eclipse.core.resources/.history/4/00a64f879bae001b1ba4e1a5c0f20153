@@ -1,0 +1,14 @@
+package nLayeredFourHomework.entities.concretes;
+
+import nLayeredFourHomework.entities.abstracts.Entity;
+
+public class Customer implements Entity {
+
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String password;
+	private boolean verified;
+
+}

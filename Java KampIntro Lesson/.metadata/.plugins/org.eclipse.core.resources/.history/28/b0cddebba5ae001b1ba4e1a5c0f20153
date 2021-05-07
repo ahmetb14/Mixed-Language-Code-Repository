@@ -1,0 +1,20 @@
+package nLayeredFourHomework.core;
+
+import nLayeredFourHomework.loginWithGoogle.loginWithGoogleManager;
+
+public class loginWithGoogleAdapter implements ValidationService {
+
+	@Override
+	public void login(int id, String firstName, String lastName, String email, String password) {
+
+	}
+
+	@Override
+	public void register(String email, String password) {
+
+		loginWithGoogleManager googleManager = new loginWithGoogleManager();
+		googleManager.login(email, password);
+
+	}
+
+}
