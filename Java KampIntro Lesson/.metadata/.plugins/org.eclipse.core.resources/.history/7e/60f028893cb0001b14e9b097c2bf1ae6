@@ -1,0 +1,5 @@
+package kodlamaio.northwind.business.abstracts;
+
+public class ProductService {
+
+}

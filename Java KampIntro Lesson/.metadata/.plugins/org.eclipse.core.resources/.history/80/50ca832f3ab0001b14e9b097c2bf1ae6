@@ -1,0 +1,7 @@
+package kodlamaio.northwind.dataAccess.abstracts;
+
+public interface ProductDao extends JpaRepository<Product,Integer> {
+	
+	
+	
+}

@@ -1,0 +1,9 @@
+package kodlamaio.northwind.business.abstracts;
+
+import java.util.List;
+
+public class ProductService {
+	
+	List<Product> getAll();
+	
+}

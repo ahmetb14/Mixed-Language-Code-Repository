@@ -1,0 +1,16 @@
+package kodlamaio.northwind.api.controllers;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api/products")
+public class ProductsController {
+	
+	public List<Product> getAll();
+	
+}
+
+//kodlama.io//api/products gibi bir istek olabilir.

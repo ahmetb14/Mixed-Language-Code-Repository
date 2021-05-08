@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="interfaces.Logger"/>
-    <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
-    <fullyQualifiedTypeName name="interfaces.DatabaseLogger"/>
-    <fullyQualifiedTypeName name="interfaces.SmsLogger"/>
-    <fullyQualifiedTypeName name="interfaces.EmailLogger"/>
-    <fullyQualifiedTypeName name="interfaces.FileLogger"/>
-    <fullyQualifiedTypeName name="interfaces.Utils"/>
-    <fullyQualifiedTypeName name="Entities.Campaign"/>
-    <fullyQualifiedTypeName name="Abstract.GameService"/>
-    <fullyQualifiedTypeName name="Abstract.PlayerService"/>
-    <fullyQualifiedTypeName name="Abstract.Entity"/>
-    <fullyQualifiedTypeName name="Concrete.PlayerManager"/>
-    <fullyQualifiedTypeName name="Concrete.ValidationManager"/>
-    <fullyQualifiedTypeName name="Concrete.CampaingManager"/>
-    <fullyQualifiedTypeName name="Concrete.GameManager"/>
     <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
     <fullyQualifiedTypeName name="Abstract.CampaingService"/>
     <fullyQualifiedTypeName name="Entities.Player"/>
@@ -43,7 +28,6 @@
     <fullyQualifiedTypeName name="nLayeredFourHomework.dataAccess.abstracts.CustomerDao"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.Pattern"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="nLayeredFourHomework.loginWithGoogle.loginWithGoogleManager"/>
     <fullyQualifiedTypeName name="nLayeredFourHomework.business.abstracts.CustomerService"/>
     <fullyQualifiedTypeName name="nLayeredFourHomework.business.concretes.CustomerManager"/>
@@ -60,4 +44,20 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="nLayeredFourHomework.utils.FakeDb"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.entities.concretes.Product"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.business.abstracts.ProductService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>
