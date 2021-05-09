@@ -1,0 +1,17 @@
+package kodlamaio.hrms.business.concretes;
+
+import java.util.List;
+
+import kodlamaio.hrms.business.abstracts.JobTitleService;
+import kodlamaio.hrms.entities.concretes.JobTitle;
+
+public class JobTitleManager implements JobTitleService {
+
+	@Override
+	public List<JobTitle> getAll() {
+
+		return null;
+
+	}
+
+}

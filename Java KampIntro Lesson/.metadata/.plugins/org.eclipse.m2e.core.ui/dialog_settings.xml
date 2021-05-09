@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Eğlence\Dosyalar\Çalışma Belgeleri\Yazılımla İlgili Dosya Arşivi\Java KampIntro Lesson\hrms"/>
 			<item value="D:\Eğlence\Dosyalar\Çalışma Belgeleri\Yazılımla İlgili Dosya Arşivi\Java KampIntro Lesson\northwind"/>
 		</list>
 		<list key="projectNameTemplate">

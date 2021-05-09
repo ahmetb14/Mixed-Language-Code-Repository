@@ -1,9 +1,0 @@
-package Abstract;
-
-import Entities.Player;
-
-public interface ValidationService {
-
-	boolean confirm(Player player);
-
-}

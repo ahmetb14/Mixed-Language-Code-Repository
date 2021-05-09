@@ -1,0 +1,9 @@
+package kodlamaio.hrms.api.controllers;
+
+import kodlamaio.hrms.business.concretes.JobTitleManager;
+
+public class JobTitlesController {
+	
+	private JobTitleManager jobTitleManager;
+	
+}

@@ -1,0 +1,23 @@
+package kodlamaio.hrms.business.concretes;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import kodlamaio.hrms.business.abstracts.UserService;
+import kodlamaio.hrms.dataAccess.abstracts.UserDao;
+import kodlamaio.hrms.entities.concretes.User;
+
+public class UserManager implements UserService {
+
+	@Autowired	
+	private UserDao userDao;
+	
+	@Override
+	public List<User> getAll() {
+
+		return null;
+
+	}
+
+}

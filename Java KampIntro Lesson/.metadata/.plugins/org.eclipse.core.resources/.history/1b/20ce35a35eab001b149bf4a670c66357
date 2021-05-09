@@ -1,9 +1,0 @@
-package Entities;
-
-import Abstract.Entity;
-
-public class Player implements Entity {
-	
-	
-	
-}
