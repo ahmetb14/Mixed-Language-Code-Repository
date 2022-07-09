@@ -1,69 +1,69 @@
-//linux ve mac'te başına sudo komutu getirmemiz gerekiyor.
+#linux ve mac'te başına sudo komutu getirmemiz gerekiyor.
  
-//Nodejs Kurulumu
-  //Windows cmd ile command promptu açalım kod kısmına "apt-get install nodejs"
-  //linux mac terminali açarak "sudo apt-get install nodejs" komutunu giriyoruz.
+#Nodejs Kurulumu
+  +Windows cmd ile command promptu açalım kod kısmına "apt-get install nodejs"
+  +linux mac terminali açarak "sudo apt-get install nodejs" komutunu giriyoruz.
  
-//npm kurulumu kontrol ediyoruz.
+#npm kurulumu kontrol ediyoruz.
 nmp -v
  
-//hangi paketleri yüklediğimiz komutu:
+#hangi paketleri yüklediğimiz komutu:
 npm ls
  
-//npm güncellemesi komutu:
+#npm güncellemesi komutu:
 npm update
  
-//Paket silme kaldırma (npm uninstall paketadi)
+#Paket silme kaldırma (npm uninstall paketadi)
 npm uninstall colors
  
-//Yüklediğimiz paketi silme komutu:
+#Yüklediğimiz paketi silme komutu:
 npm remove colors
  
-//Global Paket Kaldırma linux ve mac'te başına sudo gelecek komutu:
+#Global Paket Kaldırma linux ve mac'te başına sudo gelecek komutu:
 npm uninstall -g paketadi
  
-//npm modül araması yapmak için
+#npm modül araması yapmak için
 npm search colors
  
-//Paket yüklersen versiyon belirterek kurma komutu:
+#Paket yüklersen versiyon belirterek kurma komutu:
 npm install paketadi@versiyon
 npm install colors@3.2.1
  
-//Yerel paket yükleme
+#Yerel paket yükleme
 npm install colors
  
-//global paket olarak yükleme linux ve mac'te başına sudo ekleyelim
+#Global paket olarak yükleme linux ve mac'te başına sudo ekleyelim
 npm -g install colors
  
-//Yüklediğimiz global paketlerin nereye kurulduğu komutu
+#Yüklediğimiz global paketlerin nereye kurulduğu komutu
 npm root -g
  
-//Yüklediğimiz global paketlerin liste komutu
+#Yüklediğimiz global paketlerin liste komutu
 npm list -g
  
-//Yüklediğimiz global paketlerin ana adı liste komutu
+#Yüklediğimiz global paketlerin ana adı liste komutu
 npm list -g --depth=0
  
-//Yüklediğimiz yerel paketlerin liste komutu
+#Yüklediğimiz yerel paketlerin liste komutu
 npm list
  
-//Package Json Dosyası Kurulum komutu
+#Package Json Dosyası Kurulum komutu
 npm init
  
-//Hazır Package Json Dosyası Kurulum komutu
+#Hazır Package Json Dosyası Kurulum komutu
 npm init -y
  
-//Node modülü kurarken Package.json dependencies dosyasına da eklesin komutunu
+#Node modülü kurarken Package.json dependencies dosyasına da eklesin komutunu
 npm install paketadi --save
  
-//Package.json dosyamiza dokunmadan paket kaldırma
+#Package.json dosyamiza dokunmadan paket kaldırma
 npm uninstall paketadi --no-save
  
-//Package(devdependencies) sadece localde kullanacağımızı yayına alırken yüklenmemesini istiyorsak komutu:
+#Package(devdependencies) sadece localde kullanacağımızı yayına alırken yüklenmemesini istiyorsak komutu:
 npm install paketadi --save-dev
  
-//Projenizde kullandiğımız paketlerin versiyonu geçmiş olanları bulma komutu:
+#Projenizde kullandiğımız paketlerin versiyonu geçmiş olanları bulma komutu:
 npm outdated
  
-//Versiyonu geçmiş yada güncellemek istediğiniz paketlerin güncelleme komutu:
+#Versiyonu geçmiş yada güncellemek istediğiniz paketlerin güncelleme komutu:
 npm update paketadi
