@@ -1,0 +1,14 @@
+C:\Users\Hp\source\repos\İntro\İntro\bin\Debug\net8.0\İntro.exe
+C:\Users\Hp\source\repos\İntro\İntro\bin\Debug\net8.0\İntro.deps.json
+C:\Users\Hp\source\repos\İntro\İntro\bin\Debug\net8.0\İntro.runtimeconfig.json
+C:\Users\Hp\source\repos\İntro\İntro\bin\Debug\net8.0\İntro.dll
+C:\Users\Hp\source\repos\İntro\İntro\bin\Debug\net8.0\İntro.pdb
+C:\Users\Hp\source\repos\İntro\İntro\obj\Debug\net8.0\İntro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\İntro\İntro\obj\Debug\net8.0\İntro.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\İntro\İntro\obj\Debug\net8.0\İntro.AssemblyInfo.cs
+C:\Users\Hp\source\repos\İntro\İntro\obj\Debug\net8.0\İntro.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\İntro\İntro\obj\Debug\net8.0\İntro.dll
+C:\Users\Hp\source\repos\İntro\İntro\obj\Debug\net8.0\refint\İntro.dll
+C:\Users\Hp\source\repos\İntro\İntro\obj\Debug\net8.0\İntro.pdb
+C:\Users\Hp\source\repos\İntro\İntro\obj\Debug\net8.0\İntro.genruntimeconfig.cache
+C:\Users\Hp\source\repos\İntro\İntro\obj\Debug\net8.0\ref\İntro.dll
