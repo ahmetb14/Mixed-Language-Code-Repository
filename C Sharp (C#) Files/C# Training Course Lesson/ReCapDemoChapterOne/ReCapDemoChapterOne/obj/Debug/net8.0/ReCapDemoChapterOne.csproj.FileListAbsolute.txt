@@ -1,0 +1,14 @@
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\bin\Debug\net8.0\ReCapDemoChapterOne.exe
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\bin\Debug\net8.0\ReCapDemoChapterOne.deps.json
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\bin\Debug\net8.0\ReCapDemoChapterOne.runtimeconfig.json
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\bin\Debug\net8.0\ReCapDemoChapterOne.dll
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\bin\Debug\net8.0\ReCapDemoChapterOne.pdb
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\obj\Debug\net8.0\ReCapDemoChapterOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\obj\Debug\net8.0\ReCapDemoChapterOne.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\obj\Debug\net8.0\ReCapDemoChapterOne.AssemblyInfo.cs
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\obj\Debug\net8.0\ReCapDemoChapterOne.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\obj\Debug\net8.0\ReCapDemoChapterOne.dll
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\obj\Debug\net8.0\refint\ReCapDemoChapterOne.dll
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\obj\Debug\net8.0\ReCapDemoChapterOne.pdb
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\obj\Debug\net8.0\ReCapDemoChapterOne.genruntimeconfig.cache
+C:\Users\Hp\source\repos\ReCapDemoChapterOne\ReCapDemoChapterOne\obj\Debug\net8.0\ref\ReCapDemoChapterOne.dll
